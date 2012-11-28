@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Time Calculator | Add or Subtract Time Readings</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="jQuery-1.8.2.js"></script>
+</head>
+<body>
+	<div id="calcWrapper">
+		<section id="display">
+			<ul id="displayUL">
+				<li class="displayLI">
+					<input type="number" id="hrs" class="displayInput" placeholder="Hours" data-default="00" name="hours" min="0" max="100000">
+				</li>
+				<li class="displayLI">
+					<input type="number" id="mns" class="displayInput" placeholder="Mins" data-default="00" name="mins" min="0" max="59">
+				</li>
+				<li class="displayLI">
+					<input type="number" id="secs" class="displayInput" placeholder="Secs" data-default="00" name="secs" min="0" max="59">
+				</li>
+			</ul>
+		</section>
+
+		<section id="number">
+			<ul id="numberUL">
+				<li class="numberLI">
+					<button id="allClear" class="orange">AC</button>
+				</li>
+				<li class="numberLI">
+					<button id="clear" class="orange">C</button>
+				</li>
+				<li class="numberLI">
+					<button id="seven" class="numberBtn cream">7</button>
+				</li>
+				<li class="numberLI">
+					<button id="eight" class="numberBtn cream">8</button>
+				</li>
+				<li class="numberLI">
+					<button id="nine" class="numberBtn cream">9</button>
+				</li>
+				<li class="numberLI">
+					<button id="plus" class="op black">+</button>
+				</li>
+				<li class="numberLI">
+					<button id="four" class="numberBtn cream">4</button>
+				</li>
+				<li class="numberLI">
+					<button id="five" class="numberBtn cream">5</button>
+				</li>
+				<li class="numberLI">
+					<button id="six" class="numberBtn cream">6</button>
+				</li>
+				<li class="numberLI">
+					<button id="minus" class="op black">-</button>
+				</li>
+				<li class="numberLI">
+					<button id="one" class="numberBtn cream">1</button>
+				</li>
+				<li class="numberLI">
+					<button id="two" class="numberBtn cream">2</button>
+				</li>
+				<li class="numberLI">
+					<button id="three" class="numberBtn cream">3</button>
+				</li>
+				<li class="numberLI">
+					<button id="equals" class="black">=</button>
+				</li>
+				<li class="numberLI">
+					<button id="zero" class="numberBtn cream">0</button>
+				</li>
+			</ul>
+		</section>
+
+	</div>
+
+	<div id="notepadTop"></div>
+	<div id="roughColumn">
+		<ul id="roughUL"></ul>	
+		<results></results>
+	</div>	
+	<div id="notepadBottom"></div>
+	
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
