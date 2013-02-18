@@ -26,6 +26,7 @@ body {
 
 }
 #calcWrapper {
+	/*background: rgba(60,60,60,1);*/
 	background: url('calcbg.png') no-repeat;
 	width: 400px;
 	border-radius: 10px;
