@@ -19,14 +19,10 @@ body {
 	color: #333;
 	margin: 10px auto;
 	width: 900px;
-	/*background: url('bodybg.jpg') repeat;*/
-	/*height: 411px;*/
-	/*background: -webkit-gradient(linear, left top, left bottom, from(#3D424C), to(#484E5A));*/
 	background: #3D424C;
 
 }
 #calcWrapper {
-	/*background: rgba(60,60,60,1);*/
 	background: url('calcbg.png') no-repeat;
 	width: 400px;
 	border-radius: 10px;
@@ -126,7 +122,6 @@ ul#roughUL {
 	margin-bottom: 10px;
 	margin-top: 120px;
 	margin-left: 80px;
-	/*font-family: notepad;*/
 }
 .current {
 	border: 3px solid rgb(127, 155, 185);
@@ -144,7 +139,6 @@ results {
 	margin-left: 105px;
 	font-weight: bold;
 	border-top: 2px solid #333;
-	/*font-family: notepad;*/
 }
 .orange {
 	color: rgb(0,0,0);
